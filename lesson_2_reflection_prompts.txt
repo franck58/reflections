@@ -1,21 +1,19 @@
 ﻿What happens when you initialize a repository? 
-	crea file .git
+	crea file .git e un nuovo repository
 Why do you need to do it?
 
 
-	per creare i vari files di servizio del workspace
+	per lavorare con GIT
 How is the staging area different from the working directory and the repository?
 
-	e' una zona di mezzo che serve per il controllo dei file in fase di commit
+	e' una zona di mezzo che serve per il controllo dei file prima del commit
 What value do you think it offers?
 
 
-	Aiuta a gestir emeglio
+	Aiuta a scegliere i files da commit
 How can you use the staging area to make sure you have one commit per logical
 change?
-	Controllo con diff 
-
-
+	Controllo con diff e scelgo quali files fanno parte di cambiamenti logici
 
 What are some situations when branches would be helpful in keeping your history
 organized? 
@@ -28,13 +26,15 @@ How would branches help?
 How do the diagrams help you visualize the branch structure?
 
 
-	si vedono le branch
+	Disegnando il diagramma è possibile vedere direttamente i rapporti tra i commit e branch
 What is the result of merging two branches together? 
-	un ramo fuso
+	Il risultato è un commit con i cambiamenti di entrambi i branch
 Why do we represent it in
 the diagram the way we do?
 
 
-	e più comprensibile
+	Dopo una fusione, tutti i commit saranno indicati in base al timestamp in git log
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+ 	Automatic merging  consente di risparmiare un sacco di tempo rispetto a manualmente.
